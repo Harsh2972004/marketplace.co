@@ -6,6 +6,14 @@ This project was built as part of an internship assignment to demonstrate full-s
 
 ---
 
+### 🌐 Live Demo
+
+Frontend: https://marketplace-co.vercel.app/  
+Backend: https://marketplace-co.onrender.com
+Note: Backend may take a few seconds to wake up on first request.
+
+---
+
 ## 🚀 Features
 
 ### 🔐 Authentication
