@@ -49,8 +49,13 @@ export const removeFavourite = async (req, res) => {
 export const getFavourites = async (req, res) => {
   try {
     const user = await User.findById(req.user.id).populate("favourites");
+    // user.favourites is populated with product documents
+    const formatted = user.favourites.map((p) => ({
+      ...p.toObject(),
+      isFavourite: true,
+    }));
 
-    return res.status(200).json(user.favourites);
+    return res.status(200).json(formatted);
   } catch (error) {
     console.error(error);
     return res.status(500).json({ message: "Server error" });

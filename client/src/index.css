@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* ---------- Design Tokens ---------- */
+@theme {
+  --color-bg: #f9fafb; /* page background */
+  --color-card: #ffffff; /* cards */
+  --color-primary: #7c59f9;
+  --color-primary-hover: #8c6dfa;
+  --color-text: #111827; /* gray-900 */
+  --color-muted: #6b7280; /* gray-500 */
+  --color-border: #e5e7eb; /* gray-200 */
+  --color-danger: #dc2626; /* red-600 */
+
+  --w-8xl: 90rem;
+}
+
+/* ---------- Global Styles ---------- */
+body {
+  @apply bg-[--color-bg] text-[--color-text] antialiased;
+}
