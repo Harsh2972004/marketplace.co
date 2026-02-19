@@ -69,7 +69,7 @@ Backend:
 
 ### 1️⃣ Clone the repository
 
-git clone <repo-url>
+git clone https://github.com/Harsh2972004/marketplace.co
 cd project-folder
 
 ---
