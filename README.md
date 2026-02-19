@@ -103,6 +103,13 @@ npm run dev
 
 ---
 
+## 🔑 Testing Credentials
+
+Email: demo@marketplace.com  
+Password: Demo@123
+
+---
+
 ## 📱 Responsiveness
 
 - Mobile: stacked layout, touch-friendly buttons
